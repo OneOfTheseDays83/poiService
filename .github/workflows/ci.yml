@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  audit:
+  ci:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
@@ -26,12 +26,6 @@ jobs:
 
       - name: Run go vet
         run: go vet cmd/...
-
-      - name: Install staticcheck
-        run: go install honnef.co/go/tools/cmd/staticcheck@latest
-
-      - name: Run staticcheck
-        run: staticcheck cmd/...
 
       - name: Install golint
         run: go install golang.org/x/lint/golint@latest
