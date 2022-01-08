@@ -1,7 +1,6 @@
 # Poi Service
 
-[![Build Status](https://github.com/OneOfTheseDays83/poiService/workflows/test%20and%20build/badge.svg)](https://github.com/OneOfTheseDays83/poiService/actions?workflow=test%20and%20build)
-[![Coverage Status](https://github.com/OneOfTheseDays83/poiService/badge.svg?branch=master)](https://github.com/OneOfTheseDays83/poiService?branch=master)
+![CI](https://github.com/OneOfTheseDays83/poiService/actions/workflows/ci.yml/badge.svg)
 
 This service allows users to store POIs at a given location. Detailed functionality:
 * Create a new POI in the service.
